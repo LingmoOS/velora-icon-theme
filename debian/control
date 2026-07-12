@@ -1,4 +1,4 @@
-Source: deepin-icon-theme
+Source: lingmo-icon-theme
 Section: x11
 Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
@@ -8,9 +8,9 @@ Build-Depends:
  gtk-update-icon-cache,
  x11-apps,
 Rules-Requires-Root: binary-targets
-Homepage: https://github.com/linuxdeepin/deepin-icon-theme
+Homepage: https://github.com/linuxdeepin/lingmo-icon-theme
 
-Package: deepin-icon-theme
+Package: lingmo-icon-theme
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -23,6 +23,6 @@ Package: sea-icon-theme
 Architecture: all
 Depends:
  ${misc:Depends},
-Conflicts: deepin-icon-theme (<< 15.12.65)
+Conflicts: lingmo-icon-theme (<< 15.12.65)
 Description: Deepin Sea Icons 
  This package is DeepinIconTheme Sea

@@ -1,12 +1,12 @@
 %global themes bloom bloom-dark bloom-classic bloom-classic-dark Sea
 %global start_logo start-here
 
-Name:           deepin-icon-theme
+Name:           lingmo-icon-theme
 Version:        2020.09.25
 Release:        1%{?dist}
 Summary:        Icons for the Deepin Desktop Environment
 License:        GPLv3+
-URL:            https://github.com/linuxdeepin/deepin-icon-theme
+URL:            https://github.com/linuxdeepin/lingmo-icon-theme
 Source0:        %{url}/archive/%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  /usr/bin/python
